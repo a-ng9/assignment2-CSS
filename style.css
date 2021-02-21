@@ -1,0 +1,69 @@
+body {
+  background-color: #343a4b;
+  color: #e5e5e5;
+  font-family: "Baloo 2";
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 2.6vw;
+}
+h2{
+    font-size: 2.2vw;
+    margin-bottom: 0;
+}
+ul{
+    margin-top: 0;
+}
+
+/* Custom styles */
+.gridcontainer {
+  display: grid;
+  margin: 0 auto;
+  justify-content: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+}
+
+.pageTitle {
+  grid-column: 12;
+  padding: 0 1em;
+}
+
+.summaryBoxes {
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  color: black;
+  grid-column: 12;
+  padding: 25px;
+  margin: 20px;
+  align-content: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.box {
+  width: 30%;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.ingredients {
+  grid-column: 12;
+  text-align: center;
+}
+.ingredients > ul{
+    display: inline-block;
+}
+
+
+.method {
+  grid-column: 12;
+  text-align: center;
+}
+.method > ol{
+    display: inline-block;
+}
