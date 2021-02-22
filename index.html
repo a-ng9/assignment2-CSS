@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
+
     <title>Black Sesame Ice Cream Recipe</title>
 </head>
 
@@ -16,60 +18,129 @@
         <div class="pageTitle">
             <h1>Black Sesame Ice Cream</h1>
         </div>
-        <!-- <img src="assets/BlackSesameBG.png" alt="Black Sesame Ice Creame Image" width="50%" height="auto"> -->
-        <div class="summaryBoxes">
+        <div id="summaryBoxes">
             <div class="box">
-                <h2>Prep Time</h2>
-                <p>30m</p>
+                <p class="boxTitle">Prep Time</p>
+                <p class="boxPara">30m</p>
             </div>
             <div class="box">
-                <h2>Cook Time</h2>
-                <p>15m</p>
+                <p class="boxTitle">Cook Time</p>
+                <p class="boxPara">15m</p>
             </div>
             <div class="box">
-                <h2>Chilling Time</h2>
-                <p>8h</p>
+                <p class="boxTitle">Chilling Time</p>
+                <p class="boxPara">8h</p>
             </div>
             <div class="box">
-                <h2>Total Time</h2>
-                <p>8h 45m</p>
+                <p class="boxTitle">Total Time</p>
+                <p class="boxPara">8h 45m</p>
             </div>
+            <div class="box"></div>
+            <img src="assets/BlackSesame.png" class="iceCream" width="220" height="312">
+
         </div>
 
         <div class="ingredients">
-            <h2>Ingredients</h2>
+            <h2 class="title">Ingredients</h2>
             <ul>
-                <li><i>2Tbsp </i> <b>Toasted</b> Black Sesame Seeds</li>
-                <li><i>400ml</i> Whole Milk</li>
-                <li><i>70g</i> Sugar</li>
-                <li><i>3</i> egg yolks</li>
-                <li><i>2Tbsp</i> Honey</li>
-                <li><i>3Tbsp</i> Black Sesame Paste</li>
-                <li><i>1Tsp</i> Pure Vanilla Extract</li>
-                <li><i>200ml</i> Whipping Cream</li>
-                <li><i>A Pinch</i> of Salt</li>
+                <li class="ingredientDetail"><i>2Tbsp </i> <b>Toasted</b> Black Sesame Seeds</li>
+                <li class="ingredientDetail"><i>400ml</i> Whole Milk</li>
+                <li class="ingredientDetail"><i>70g</i> Sugar</li>
+                <li class="ingredientDetail"><i>3</i> egg yolks</li>
+                <li class="ingredientDetail"><i>2Tbsp</i> Honey</li>
+                <li class="ingredientDetail"><i>3Tbsp</i> Black Sesame Paste</li>
+                <li class="ingredientDetail"><i>1Tsp</i> Pure Vanilla Extract</li>
+                <li class="ingredientDetail"><i>200ml</i> Whipping Cream</li>
+                <li class="ingredientDetail"><i>A Pinch</i> of Salt</li>
             </ul>
         </div>
 
         <div class="method">
-            <h2>Method</h2>
-            <ol>
-                <li>Measure and prepare all ingredients</li>
-                <li>Grind the toasted black sesame seeds and put aside</li>
-                <li>Whisk Sugar and egg yolk together until it becomes pale yellow</li>
-                <li>Once it turns pale yellow add in: honey, black sesame seeds (ground), black sesame paste and whisk
-                    until well combined</li>
-                <li>Simmer the milk and then add to the mixture in a slow stream. Mix at a low speed for 30 seconds</li>
-                <li>Transfer mixture into a small pot</li>
-                <li>Heat the mixture over medium-low heat and stirring constantly until it thickens and reaches
-                    80<sup>o</sup>C</li>
-                <li>Remove from heat and cool down the pot in a large bowl filled with iced water. Then Add vanilla
-                    while it cools down</li>
-                <li>Add whipped cream and a pinch of salt into the cooled sesame mixture</li>
-                <li>Fold in but do not over mix it. Chill the mixture in the refrigerator for minimum 8hours (overnight).</li>
-                <li>After completely cooled, process the mixture in your ice cream makeer for about 25mins. The mixture will slowly thicken/freezes and become ice cream</li>
-                <li>After it freezes in the ice cream maker, transfer it to a container and then it is ready to serve</li>
-            </ol>
+            <h2 class="title">Method</h2>
+            
+            <div class="methodBoxes">
+                <p class="stepBox">Step 1</p>
+                <div class="boxDetails">
+                    <img src="assets/Ingredients.jpg" class="responsive" width="500px" height="auto">
+                    <p class="stepDetails">Measure and prepare all ingredients.</p>
+                </div>
+            </div>
+      
+            <div class="methodBoxes">
+                <p class="stepBox">Step 2</p>
+                <div class="boxDetails">
+                    <img src="assets/groundSesame.jpg" class="responsive" width="500" height="auto">
+                    <p class=" stepDetails">Grind the toasted black sesame seeds and put aside.</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 3</p>
+                <div class="boxDetails">
+                    <img src="assets/whiskEgg.png" class="responsive" width="500" height="auto">
+                    <p class="stepDetails">Whisk the <i>70g</i> Sugar and egg yolk together until it becomes pale
+                        yellow.
+                    </p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 4</p>
+                <div class="boxDetails">
+                    <img src="assets/whiskSesame.png" class="responsive" width="500" height="165">
+                    <p class="stepDetails">Once it turn pale yellow add in: honey, black sesame seeds (ground), black
+                        sesame paste and whisk until well combined.</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 5</p>
+                <div class="boxDetails">
+                    <img src="assets/milk.png" class="responsive" width="500vm" height="333vm">
+                    <p class="stepDetails">Simmer the milk and then add to the mixture in a slow stream. Mix at a low
+                        speed for 30 seconds.</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 6</p>
+                <div class="boxDetails">
+                    <img src="assets/cook.png" class="responsive" width="500" height="333">
+                    <p class="stepDetails">Transfer mixture into a small pot. Heat the mixture over a medium-low heat
+                        and stirring constantly until it thickens and reaches
+                        80<sup>o</sup>C.</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 7</p>
+                <div class="boxDetails">
+                    <img src="assets/cooldown.png" class="responsive" width="500" height="333">
+                    <p class="stepDetails">Remove from heat and cool down the pot in a large bowl filled with iced
+                        water. Then Add vanilla while it cools down.</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 8</p>
+                <div class="boxDetails">
+                    <img src="assets/whipCream.png" class="responsive" width="500" height="333">
+                    <p class="stepDetails">Add the whipped cream and a pinch of salt into the cooled sesame mixture.
+                        Then start fold in to mix but do not go overboard. Chill the mixture in the refrigerator for
+                        minimum 8hours (overnight).</p>
+                </div>
+            </div>
+
+            <div class="methodBoxes">
+                <p class="stepBox">Step 9</p>
+                <div class="boxDetails">
+                    <img src="assets/iceCream.png" class="responsive" width="500" height="333">
+                    <p class="stepDetails">After completely cooled, process the mixture in your ice cream makeer for
+                        about 25mins. The mixture will slowly thicken/freeze and become ice cream. <br>After it freezes
+                        in the ice cream maker, transfer it to a container and then it is ready to serve.</p>
+                </div>
+            </div>
+
         </div>
 
 

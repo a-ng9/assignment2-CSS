@@ -10,13 +10,32 @@ body {
 }
 h1 {
   font-size: 2.6vw;
+  margin-bottom: 0;
+  padding: 0;
+  color: #1791a6;
 }
-h2{
-    font-size: 2.2vw;
-    margin-bottom: 0;
+h2 {
+  font-size: 2vw;
+  margin-bottom: 0;
 }
-ul{
-    margin-top: 0;
+h3 {
+  margin: 0 0;
+  color: #1791a6;
+  font-weight: 100;
+}
+
+hr {
+  margin-top: 3vw;
+  border-top: 0.5px solid#ECE7DE;
+}
+
+ul {
+  columns: 100px 3;
+  text-align: left;
+}
+
+br {
+  padding: 10px;
 }
 
 /* Custom styles */
@@ -30,40 +49,98 @@ ul{
 
 .pageTitle {
   grid-column: 12;
-  padding: 0 1em;
+  padding: 0 1.5em;
 }
 
-.summaryBoxes {
+#summaryBoxes {
+  position: relative;
   background-color: #e5e5e5;
   border-radius: 15px;
   color: black;
   grid-column: 12;
-  padding: 25px;
-  margin: 20px;
+  margin: 0 25px;
   align-content: center;
   flex-direction: row;
   display: flex;
 }
 
 .box {
-  width: 30%;
+  width: 800%;
   text-align: center;
+}
+.boxTitle {
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 0;
+}
+.boxPara {
+  margin-top: 0px;
   font-size: 1vw;
+}
+
+.iceCream {
+  max-width: 10%;
+  height: auto;
+
+  position: absolute;
+  top: -2.8vw;
+  right: 6vw;
+}
+
+.title {
+  color: #1791a6;
 }
 
 .ingredients {
   grid-column: 12;
   text-align: center;
 }
-.ingredients > ul{
-    display: inline-block;
+.ingredients > ul {
+  display: inline-block;
 }
-
+.ingredientDetail {
+  padding-right: 2em;
+  padding-bottom: 1em;
+  font-size: 1vw;
+}
 
 .method {
   grid-column: 12;
   text-align: center;
 }
-.method > ol{
-    display: inline-block;
+
+.methodBoxes {
+  padding: 0 5;
+  flex-direction: row;
+  display: flex;
+  padding-bottom: 4em;
+  width: 100%;
+}
+
+.stepBox {
+  border-radius: 10px;
+  padding: 2.5vw 0;
+  background-color: #ece7de;
+  writing-mode: vertical-rl;
+  font-size: 1.5vw;
+  color: #1791a6;
+}
+.boxDetails {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.responsive {
+  height: auto;
+}
+
+.stepDetails {
+  width: 50%;
+  margin: auto 0;
+  font-size: 1.3vw;
+  /* padding-right: 4vw; */
+  text-align: left;
 }
