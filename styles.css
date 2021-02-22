@@ -9,13 +9,13 @@ body {
   overflow-x: hidden;
 }
 h1 {
-  font-size: 2.6vw;
+  font-size: 3vw;
   margin-bottom: 0;
   padding: 0;
   color: #1791a6;
 }
 h2 {
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-bottom: 0;
 }
 h3 {
@@ -102,7 +102,7 @@ br {
 .ingredientDetail {
   padding-right: 2em;
   padding-bottom: 1em;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .method {
@@ -121,6 +121,7 @@ br {
 .stepBox {
   border-radius: 10px;
   padding: 2.5vw 0;
+  margin-top: 10;
   background-color: #ece7de;
   writing-mode: vertical-rl;
   font-size: 1.5vw;
@@ -133,18 +134,84 @@ br {
   flex-direction: row;
 }
 
-.imgM {
-  width: 50%;
-}
 .responsive {
   max-width: 100%;
   height: auto;
-  padding-left: 100px;
+  padding-left: 75px;
 }
 
 .stepDetails {
-  margin: auto 0;
+  margin: auto 75px;
   font-size: 1.3vw;
   text-align: left;
-  padding:0 150px;
+}
+
+@media (max-width: 1100px) {
+  h1{
+    font-size: 4vw;
+  }
+  .boxTitle {
+    font-size: 2vw;
+  }
+  .boxPara {
+    font-size: 1.3vw;
+  }
+  .title {
+    font-size: 2.7vw;
+  }
+
+  .ingredientDetail {
+    font-size: 1.6vw;
+  }
+
+  .stepBox {
+    border-radius: 5px;
+    font-size: 2vw;
+  }
+
+  .responsive {
+    max-width: 300px;
+    padding-left: 50px;
+  }
+
+  .stepDetails {
+    margin: auto 50px;
+    font-size: 1.6vw;
+  }
+}
+
+@media (max-width: 690px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+  .boxTitle {
+    font-size: 3vw;
+  }
+  .boxPara {
+    font-size: 2.2vw;
+    font-weight: 200;
+  }
+
+  .title {
+    font-size: 3.5vw;
+  }
+
+  .ingredientDetail {
+    font-size: 1.8vw;
+  }
+
+  .stepBox {
+    border-radius: 5px;
+    font-size: 2.5vw;
+  }
+
+  .responsive {
+    max-width: 225px;
+    padding-left: 50px;
+  }
+
+  .stepDetails {
+    margin: auto 50px;
+    font-size: 1.8vw;
+  }
 }
