@@ -150,6 +150,14 @@ br {
   h1{
     font-size: 4vw;
   }
+
+  .iceCream {
+    max-width: 10%;
+
+    top: -0.5vw;
+    right: 6vw;
+  }
+
   .boxTitle {
     font-size: 2vw;
   }
@@ -191,7 +199,14 @@ br {
     font-size: 2.2vw;
     font-weight: 200;
   }
-
+  .iceCream {
+    max-width: 13%;
+    height: auto;
+  
+    position: absolute;
+    top: 2vw;
+    right: 4vw;
+  }
   .title {
     font-size: 3.5vw;
   }
