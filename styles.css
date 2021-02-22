@@ -32,6 +32,7 @@ hr {
 ul {
   columns: 100px 3;
   text-align: left;
+  list-style-type: none;
 }
 
 br {
@@ -104,9 +105,7 @@ br {
   padding-bottom: 1em;
   font-size: 1.2vw;
 }
-.left{
-  float:left;
-}
+
 
 .method {
   grid-column: 12;
